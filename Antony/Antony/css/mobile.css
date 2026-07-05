@@ -1,0 +1,114 @@
+/* Mobile — ajustes para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 1.85rem;
+  }
+
+  .hero {
+    min-height: 92vh;
+    padding-top: 2.5rem;
+  }
+
+  .hero-frame {
+    min-height: auto;
+  }
+
+  .media-crop--hero {
+    aspect-ratio: 3 / 4;
+  }
+
+  .media-crop--boxing {
+    aspect-ratio: 4 / 5;
+  }
+
+  .media-crop--boxing img {
+    object-position: 50% 10%;
+  }
+
+  .stats {
+    gap: 0.35rem;
+  }
+
+  .stat-box strong {
+    font-size: 0.95rem;
+  }
+
+  .stat-box span {
+    font-size: 0.58rem;
+  }
+
+  .bento-card--wide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .plan-card--featured,
+  .plan-card--oro {
+    order: -1;
+  }
+
+  .plans-slogan {
+    font-size: 0.85rem;
+  }
+
+  .plans-cta {
+    font-size: 0.82rem;
+    padding: 1rem;
+  }
+
+  .contact-card {
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+
+  .contact-icon-wrap {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact-icon-img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .contact-intro {
+    font-size: 0.85rem;
+  }
+
+  .float-whatsapp {
+    bottom: 0.75rem;
+    right: 0.75rem;
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .brand-logo {
+    width: 90px;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0.75rem 1rem;
+  }
+
+  .stat-box strong,
+  .stat-box span {
+    display: inline;
+    font-size: 0.85rem;
+  }
+}

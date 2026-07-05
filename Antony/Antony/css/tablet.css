@@ -1,0 +1,267 @@
+/* Tablet y escritorio */
+@media screen and (min-width: 768px) {
+
+  .site-header {
+    padding: 0.75rem 2rem;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    background: none;
+    border: none;
+    gap: 0.25rem;
+  }
+
+  .main-nav a {
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 0.8rem;
+  }
+
+  .main-nav a:hover,
+  .main-nav a:focus {
+    color: var(--gold-light);
+    background: none;
+  }
+
+  .brand-logo {
+    width: 140px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 4rem 2rem 5rem;
+  }
+
+  .hero-bg {
+    filter: blur(4px) brightness(0.28);
+  }
+
+  .hero-wrap {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    flex: 1;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .hero h1 {
+    font-size: 2.85rem;
+  }
+
+  .hero-text {
+    max-width: 40ch;
+  }
+
+  .hero-visual {
+    flex: 1;
+    max-width: 380px;
+  }
+
+  .media-crop--hero {
+    aspect-ratio: 3 / 4;
+  }
+
+  .media-crop--hero img {
+    object-position: 50% 5%;
+  }
+
+  .stats {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .stat-box {
+    padding: 1.25rem;
+  }
+
+  .stat-box strong {
+    font-size: 1.5rem;
+  }
+
+  .section {
+    padding: 3.5rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+  }
+
+  .bento-card--large {
+    grid-row: span 2;
+  }
+
+  .bento-card--large .media-crop--gym {
+    flex: 1;
+    min-height: 260px;
+    border-radius: var(--radius-md) var(--radius-md) 0 0;
+  }
+
+  .bento-card--large .media-crop--gym img {
+    object-position: 42% 15%;
+  }
+
+  .bento-card--large {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .bento-card--large .bento-info {
+    padding: 1.25rem;
+  }
+
+  .bento-card--wide {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .bento-card--wide .media-crop--boxing {
+    width: 42%;
+    flex-shrink: 0;
+    aspect-ratio: auto;
+    height: auto;
+    min-height: 220px;
+    border-radius: var(--radius-md) 0 0 var(--radius-md);
+  }
+
+  .bento-card--wide .media-crop--boxing img {
+    object-position: 48% 8%;
+  }
+
+  .bento-card--wide .bento-info {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section--dark {
+    margin: 0 auto;
+    border-radius: var(--radius-lg);
+  }
+
+  .plans {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .plan-card--platino {
+    order: 3;
+  }
+
+  .plan-card--oro {
+    order: 2;
+  }
+
+  .plan-card--diamante {
+    order: 1;
+  }
+
+  .plan-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .plan-card--featured {
+    box-shadow: 0 12px 32px rgba(212, 175, 55, 0.12);
+  }
+
+  .plans-slogan {
+    max-width: none;
+    font-size: 1.1rem;
+  }
+
+  .plans-cta {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+  }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr 1fr;
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  .contact-card {
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 200px;
+    justify-content: flex-start;
+  }
+
+  .contact-card--whatsapp {
+    flex-direction: row;
+    align-items: center;
+    min-height: auto;
+  }
+
+  .contact-card--whatsapp {
+    transform: translateY(-6px);
+  }
+
+  .contact-value {
+    font-size: 1.1rem;
+  }
+
+  .site-footer {
+    padding-bottom: 2rem;
+  }
+
+  .float-whatsapp {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .hero h1 {
+    font-size: 3.35rem;
+  }
+
+  .section-head h2 {
+    font-size: 2.25rem;
+  }
+
+  .bento-grid {
+    grid-template-columns: 1.2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .bento-card--large {
+    grid-row: span 2;
+  }
+
+  .bento-card--wide {
+    grid-column: span 2;
+  }
+}

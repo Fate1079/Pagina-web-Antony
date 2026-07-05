@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Anthony Coach">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e82020"/>
+      <stop offset="100%" stop-color="#8b0000"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#redGrad)">
+    <path d="M160 18 L118 118 L138 118 L148 92 L172 92 L182 118 L202 118 Z M154 76 L166 76 L160 58 Z"/>
+    <rect x="72" y="88" width="176" height="10" rx="2"/>
+    <rect x="56" y="78" width="14" height="30" rx="3"/>
+    <rect x="48" y="82" width="10" height="22" rx="2"/>
+    <rect x="250" y="78" width="14" height="30" rx="3"/>
+    <rect x="262" y="82" width="10" height="22" rx="2"/>
+  </g>
+  <text x="160" y="152" text-anchor="middle" fill="url(#redGrad)" font-family="Arial Black, sans-serif" font-size="36" font-style="italic" font-weight="900">ANTHONY</text>
+  <text x="160" y="182" text-anchor="middle" fill="url(#redGrad)" font-family="Arial Black, sans-serif" font-size="22" font-style="italic" font-weight="900">COACH</text>
+</svg>
